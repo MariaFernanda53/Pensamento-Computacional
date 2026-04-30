@@ -116,7 +116,9 @@ O sistema foi dividido em módulos:
 
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript
+- Php
+- MySql
 
 *(ajuste conforme seu projeto, se usar outras tecnologias)*
 
