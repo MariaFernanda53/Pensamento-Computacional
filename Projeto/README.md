@@ -1,46 +1,42 @@
-# 👗 Projeto – Mini E-commerce Na.Fer
+# 📌 Projeto – Pensamento Computacional para Sistemas de Larga Escala
 
 ## 📖 Descrição
-Este projeto foi desenvolvido como parte da disciplina **Pensamento Computacional**, no curso de **Análise e Desenvolvimento de Sistemas - ADS**.
 
-A proposta consiste na criação de um **mini e-commerce de roupas**, com funcionalidades voltadas tanto para clientes quanto para a administração da loja.
+Este projeto foi desenvolvido como parte da disciplina **Pensamento Computacional** no curso de **Análise e Desenvolvimento de Sistemas (ADS)**.
 
----
-
-## 🎯 Objetivos
-
-- Aplicar conceitos de pensamento computacional em um projeto prático  
-- Desenvolver a estrutura de um e-commerce funcional  
-- Simular operações reais de uma loja virtual  
-- Trabalhar organização, lógica e divisão de responsabilidades no sistema  
+O objetivo é aplicar os conceitos de pensamento computacional na criação de um sistema de larga escala voltado para um problema real da sociedade: **o impacto do uso excessivo de telas em crianças**.
 
 ---
 
-## 💡 Sistema Proposto
+## 🎯 Problema
 
-### 🏷️ Nome do Sistema
-**Na.Fer – Loja Virtual de Roupas**
+Atualmente, muitas crianças estão expostas a um tempo excessivo de uso de celulares, tablets e computadores.
 
-### 📌 Descrição
+Devido à falta de informação, muitos pais no Brasil não conhecem os prejuízos que isso pode causar, como:
 
-Uma aplicação web que simula uma loja de roupas online, permitindo diferentes tipos de acesso:
+* Dificuldade de concentração
+* Problemas de sono
+* Ansiedade e irritabilidade
+* Prejuízos no desenvolvimento cognitivo e social
 
-### 👤 Usuário (Cliente)
+---
 
-- Criar login e autenticação  
-- Navegar pelo catálogo de produtos  
-- Visualizar categorias (camisetas, calças, etc.)  
-- Adicionar produtos ao carrinho  
-- Salvar produtos como favoritos  
-- Simular cálculo de entrega  
-- Finalizar compra (simulação de pagamento)  
+## 💡 Solução Proposta
 
-### 👩‍💼 Dona da Loja (Administrador)
+**Nome do Sistema:** Plataforma de Conscientização sobre Uso de Telas na Infância
 
-- Login administrativo  
-- Visualizar pedidos realizados  
-- Adicionar novos produtos  
-- Gerenciar catálogo da loja  
+### 🧾 Descrição
+
+Uma aplicação web informativa que auxilia pais e responsáveis a entenderem e reduzirem os impactos do uso excessivo de telas nas crianças.
+
+A plataforma contará com:
+
+* 📊 Dados e pesquisas científicas
+* 📖 Relatos e casos reais
+* 🧠 Explicações acessíveis sobre o impacto no cérebro infantil
+* 📵 Dicas práticas para reduzir o uso de telas sem causar sofrimento
+* 🎮 Sugestões de atividades alternativas saudáveis
+* 👨‍👩‍👧 Orientações educativas para os pais
 
 ---
 
@@ -48,88 +44,69 @@ Uma aplicação web que simula uma loja de roupas online, permitindo diferentes 
 
 ### 🔹 Decomposição
 
-O sistema foi dividido em módulos:
+O sistema será dividido em:
 
-- Autenticação (usuário e administrador)  
-- Catálogo de produtos  
-- Carrinho de compras  
-- Favoritos  
-- Gestão de pedidos  
-- Painel administrativo  
+* Página inicial
+* Página sobre o problema
+* Página de dicas
+* Página de atividades
 
 ### 🔹 Reconhecimento de Padrões
 
-- Estrutura baseada em e-commerces populares  
-- Separação entre cliente e administrador  
-- Uso de carrinho de compras padrão  
+* Estrutura semelhante a sites educativos e informativos
+* Organização de conteúdo por categorias
 
 ### 🔹 Abstração
 
-- Representação simplificada de usuários (cliente/admin)  
-- Produtos com atributos essenciais (nome, preço, categoria)  
-- Simulação de pagamento e entrega (sem integração real)  
+* Simplificação de conteúdos científicos em linguagem acessível
+* Interface intuitiva para pais
 
 ### 🔹 Algoritmos
 
-- Adição e remoção de itens do carrinho  
-- Cálculo do valor total  
-- Lógica de favoritos  
-- Simulação de frete  
-- Registro e listagem de pedidos  
+* Recomendações de atividades com base na idade da criança
+* Simulação de impacto baseada no tempo de uso de telas
 
 ---
 
 ## ⚙️ Metodologia de Desenvolvimento
 
-- Desenvolvimento incremental  
-- Organização por tarefas  
-- Uso de Git e GitHub para versionamento  
+* **Metodologia:** Desenvolvimento Incremental com Práticas Ágeis Adaptadas
+
+* **Abordagem:**
+  O projeto será desenvolvido individualmente, com evolução contínua por etapas, priorizando funcionalidades essenciais e melhorias progressivas.
+
+* **Organização:**
+
+  * Planejamento simples de tarefas
+  * Desenvolvimento por etapas (incrementos)
+  * Revisões contínuas
+
+* **Ferramentas:**
+
+  * GitHub (versionamento de código)
+  * Issues (organização de tarefas)
 
 ---
 
-## 🚧 Desafios Identificados
+## 💻 Tecnologias Utilizadas
 
-- Implementar autenticação com dois tipos de usuário  
-- Gerenciar estados (carrinho, favoritos, pedidos)  
-- Simular fluxo completo de compra  
-- Organizar interface de forma intuitiva  
-- Separar funcionalidades de cliente e administrador  
+* HTML
+* CSS
+* JavaScript
 
 ---
 
-## 🚀 Funcionalidades
+## ⚠️ Desafios Identificados
 
-- ✅ Menu de navegação  
-- ✅ Categorias de produtos  
-- ✅ Sistema de login (cliente e administrador)  
-- ✅ Carrinho de compras  
-- ✅ Lista de favoritos  
-- ✅ Simulação de entrega  
-- ✅ Simulação de pagamento  
-- ✅ Painel administrativo  
-- ✅ Gerenciamento de produtos  
-- ✅ Visualização de pedidos  
+* Garantir informações confiáveis e baseadas em estudos
+* Tornar o conteúdo simples e acessível
+* Engajar os pais a aplicarem as orientações
+* Criar uma experiência intuitiva e clara
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 📌 Considerações Finais
 
-- HTML  
-- CSS  
-- JavaScript
-- Php
-- MySql
-
-*(ajuste conforme seu projeto, se usar outras tecnologias)*
+Este projeto busca unir tecnologia e impacto social, contribuindo para a conscientização sobre o uso saudável de telas na infância e auxiliando pais na criação de hábitos mais equilibrados para seus filhos.
 
 ---
-
-## 🤝 Contribuição
-
-Projeto acadêmico. Sugestões são bem-vindas.
-
----
-
-## 📄 Licença
-
-Uso educacional.
