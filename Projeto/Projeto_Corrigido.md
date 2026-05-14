@@ -74,3 +74,4 @@ Foram feitas melhorias na interface para tornar as ações mais claras para o us
 Justificativa:
 Facilitar a navegação e melhorar a interação com o sistema.
 
+<img width="1536" height="1024" alt="Depois" src="https://github.com/user-attachments/assets/aadff7d3-fa36-417b-bfa5-50501989e6e5" />
