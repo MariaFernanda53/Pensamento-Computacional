@@ -58,4 +58,6 @@ O código apresentava falta de padronização e organização, dificultando a le
 Descrição:
 A interface não deixava claro para o usuário quais ações deveriam ser realizadas em determinadas partes do sistema.
 
+<img width="1624" height="968" alt="Antes" src="https://github.com/user-attachments/assets/38ce1075-b724-4e64-b4fa-39e0c395027c" />
+
 
